@@ -2,9 +2,8 @@
 
 Our group work projects in the field of js
 
-- https://yhekim.github.io/Grid-Works-for-in-Clarusway/
 
-- ![gif](https://raw.githubusercontent.com/yhekim/Grid-Works-for-in-Clarusway/main/Grid_Works.gif)
+- ![gif](https://raw.githubusercontent.com/yhekim/HTML-CSS-JS-FREE-GROUP-WORKS/main/Arka-Plan-De%C4%9Fi%C5%9Ftirme/arka-plan-degisimi.gif)
 
 
 ## Learning Outcomes
