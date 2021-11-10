@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  outline: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #fff;
+  box-shadow: azure;
+  color: blue;
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+
+/*Reviews*/
+main {
+  min-height: 100vh;
+  place-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .title {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+main .title .underline {
+  height: 0.25rem;
+  width: 40%;
+  background: #49a6e9;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  width: 80vw;
+  max-width: 620px;
+}
+.container .review {
+  background: #fff;
+  padding: 1.5rem 2rem;
+  border-radius: 3rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s linear;
+  text-align: center;
+}
+.container .review:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.container .review .img-container {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+.container .review .img-container::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #305773;
+  position: absolute;
+  top: -0.5rem;
+  right: -0.5rem;
+  border-radius: 50%;
+}
+.container .review .img-container #person-img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  position: relative;
+}
+.container .review #president {
+  margin-bottom: 0.25rem;
+  text-transform: capitalize;
+}
+.container .review #country {
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  color: #7696ad;
+  font-size: 0.85rem;
+  font-weight: bolder;
+}
+.container .review #info {
+  margin-bottom: 0.75rem;
+}
+.container .review .prev-btn,
+.container .review .next-btn {
+  color: #9eb2c7;
+  font-size: 1.25rem;
+  background: transparent;
+  border-color: transparent;
+  margin: 0 0.5rem;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+.container .review .prev-btn:hover,
+.container .review .next-btn:hover {
+  color: #49a6e9;
+}
+.container .review .random-btn {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  background: #ebf7ff;
+  color: #49a6e9;
+  padding: 0.5rem 0.5rem;
+  text-transform: capitalize;
+  border-radius: 0.5rem;
+  transition: all 0.3s linear;
+  border-color: #105a8e;
+  cursor: pointer;
+  font-weight: bold;
+}
+.container .review .random-btn:hover {
+  background: #105a8e;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
