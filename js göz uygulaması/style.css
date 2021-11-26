@@ -1,0 +1,42 @@
+    body {
+        margin: 0;
+        padding: 0;
+        background: darkred;
+    }
+    
+    .gozler {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+        text-align: center;
+    }
+    
+    .goz {
+        width: 240px;
+        height: 120px;
+        background-color: skyblue;
+        display: inline-block;
+        margin: 40px;
+        border-radius: 50%;
+        position: relative;
+        overflow: hidden;
+        border-top: 120px solid black;
+        transition: all .5s ease;
+    }
+    
+    .goz:hover {
+        border-top: 12px solid black;
+    }
+    
+    .goz .gozbebek {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: #000;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 10px solid rgb(119, 119, 119);
+    }

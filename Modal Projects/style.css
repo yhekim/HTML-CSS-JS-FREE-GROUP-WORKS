@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: 0;
+}
+
+body {
+    height: 100vh;
+    background-image: url("https://samsun.bel.tr/uploads/sayfalar/dff28_w1024.png");
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+}
+
+.content {
+    height: 100vh;
+}
