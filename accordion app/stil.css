@@ -1,0 +1,84 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Bodoni Moda", serif;
+}
+
+body {
+    background: #667db6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient( to right, #667db6, #0082c8, #0082c8, #667db6);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient( to right, #667db6, #0082c8, #0082c8, #667db6);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: white;
+    font-size: 48px;
+    text-shadow: 5px 5px 10px black;
+}
+
+.kapsa {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    text-align: left;
+    font-size: 24px;
+    border-radius: 5px;
+    margin-bottom: 3px;
+    background: #00F260;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0575E6, #00F260);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0575E6, #00F260);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
+
+button.aktif,
+button:hover {
+    background: #00F260;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #0575E6, #00F260);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #0575E6, #00F260);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.kutu {
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    width: calc(50% - 40px);
+    max-height: 0px;
+    overflow: hidden;
+    padding: 0px 20px;
+    transition: all 0.5s ease;
+    color: white;
+    /* display: none; */
+    /* max-height: 300px; */
+}
+
+.kutu p {
+    padding: 20px;
+}
