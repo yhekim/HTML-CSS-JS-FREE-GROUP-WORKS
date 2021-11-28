@@ -3,7 +3,7 @@
 Our group work projects in the field of js
 
 
-- ![gif](https://raw.githubusercontent.com/yhekim/HTML-CSS-JS-FREE-GROUP-WORKS/main/Review-Pages/review-pages.gif)
+- ![gif](https://raw.githubusercontent.com/yhekim/HTML-CSS-JS-FREE-GROUP-WORKS/main/accordion%20app/accordion_app.gif)
 
 
 ## Learning Outcomes
